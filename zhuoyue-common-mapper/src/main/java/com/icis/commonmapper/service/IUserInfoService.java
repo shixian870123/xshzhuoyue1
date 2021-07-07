@@ -12,4 +12,6 @@ public interface IUserInfoService {
     public UserInfo findUserByPrimaryKey(UserInfo userInfo);
     // 根据  其它字段查询数据
     public  List<UserInfo> findUserByUserProperty(UserInfo userInfo);
+    // 根据名字 模糊查询用户数据
+    public  List<UserInfo> findUserByLikeName(UserInfo userInfo);
 }

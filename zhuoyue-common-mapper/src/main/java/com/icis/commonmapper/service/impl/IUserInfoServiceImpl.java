@@ -5,6 +5,7 @@ import com.icis.commonmapper.pojo.UserInfo;
 import com.icis.commonmapper.service.IUserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -31,6 +32,22 @@ public class IUserInfoServiceImpl implements IUserInfoService{
     public List<UserInfo> findUserByUserProperty(UserInfo userInfo) {
         return this.userInfoMapper.select(userInfo);
     }
+    // 模糊查询
+    @Override
+    public List<UserInfo> findUserByLikeName(UserInfo userInfo) {
+        // 封装条件  %vaLue%
+        // 模板  查询条件通过模板封装
+        Example example=new Example(UserInfo.class);
+        Example.Criteria criteria = example.createCriteria();
+        // 根据名字 模糊查询
+        criteria.andLike("name","%"+userInfo.getName()+"%");
+        criteria.andGreaterThan("id",userInfo.getId());
+
+       return this.userInfoMapper.selectByExample(example);
+
+    }
+
+   
 
 
 
