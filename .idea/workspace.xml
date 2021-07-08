@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d996c86a-1548-4b28-bad2-38d808a323b9" name="Default" comment="dubbo&amp;分布式架构完成">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-bean/zhuoyue-bean.iml" afterPath="$PROJECT_DIR$/zhuoyue-bean/zhuoyue-bean.iml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-common-util/pom.xml" afterPath="$PROJECT_DIR$/zhuoyue-common-util/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-common-util/zhuoyue-common-util.iml" afterPath="$PROJECT_DIR$/zhuoyue-common-util/zhuoyue-common-util.iml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-interface/zhuoyue-interface.iml" afterPath="$PROJECT_DIR$/zhuoyue-interface/zhuoyue-interface.iml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-parent/pom.xml" afterPath="$PROJECT_DIR$/zhuoyue-parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-service-util/zhuoyue-service-util.iml" afterPath="$PROJECT_DIR$/zhuoyue-service-util/zhuoyue-service-util.iml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-web-util/zhuoyue-web-util.iml" afterPath="$PROJECT_DIR$/zhuoyue-web-util/zhuoyue-web-util.iml" />
-    </list>
+    <list default="true" id="d996c86a-1548-4b28-bad2-38d808a323b9" name="Default" comment="dubbo&amp;分布式架构完成" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/zhuoyue-common-mapper/target/" />
     <ignored path="$PROJECT_DIR$/zhuoyue-parent/target/" />
@@ -448,7 +436,7 @@
       <workItem from="1625648136331" duration="1118000" />
       <workItem from="1625705213456" duration="4834000" />
       <workItem from="1625713831448" duration="640000" />
-      <workItem from="1625714497460" duration="8462000" />
+      <workItem from="1625714497460" duration="8521000" />
     </task>
     <task id="LOCAL-00001" summary="新建一个模块">
       <created>1625623916428</created>
@@ -503,7 +491,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28446000" />
+    <option name="totallyTimeSpent" value="28505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
