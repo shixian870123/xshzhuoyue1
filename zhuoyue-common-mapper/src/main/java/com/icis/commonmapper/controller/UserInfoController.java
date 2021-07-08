@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.nio.file.Files;
 import java.util.List;
 
 // 用户控制器
@@ -16,7 +17,7 @@ import java.util.List;
 //@ResponseBody  // 作用域该类下面的所有的方法
 @RestController
 public class UserInfoController {
-    @Autowired
+    @Autowired   // 从本机的spring容器中取  这个接口的实现类对象
     private IUserInfoService userInfoService;
 
     // 查询所有用户数据

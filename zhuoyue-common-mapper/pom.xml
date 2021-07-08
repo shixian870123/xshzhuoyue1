@@ -45,6 +45,12 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>1.2.3</version>
+            <!--exclusions  排除
+             为什么需要排除?
+             springboot 的很多依赖包都是组合式的
+             例如  spring-boot-starter-jdbc 这个版本可能回合其它组合包中的这个版本冲突
+             解决冲突  放弃一方  改变顺序(了解)
+            -->
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
