@@ -11,7 +11,9 @@
         <module name="zhuoyue-common-mapper" />
         <module name="zhuoyue-common-util" />
         <module name="zhuoyue-interface" />
+        <module name="zhuoyue-order-web" />
         <module name="zhuoyue-service-util" />
+        <module name="zhuoyue-user-service" />
         <module name="zhuoyue-web-util" />
       </profile>
     </annotationProcessing>
@@ -20,8 +22,10 @@
       <module name="zhuoyue-common-mapper" target="1.8" />
       <module name="zhuoyue-common-util" target="1.8" />
       <module name="zhuoyue-interface" target="1.8" />
+      <module name="zhuoyue-order-web" target="1.8" />
       <module name="zhuoyue-parent" target="1.8" />
       <module name="zhuoyue-service-util" target="1.8" />
+      <module name="zhuoyue-user-service" target="1.8" />
       <module name="zhuoyue-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>

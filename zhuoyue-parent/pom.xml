@@ -14,6 +14,8 @@
         <module>../zhuoyue-common-util</module>
         <module>../zhuoyue-service-util</module>
         <module>../zhuoyue-web-util</module>
+        <module>../zhuoyue-user-service</module>
+        <module>../zhuoyue-order-web</module>
     </modules>
     <!--maven 中父工程 使用pom-->
     <packaging>pom</packaging>
@@ -156,7 +158,6 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
-                <scope>provided</scope>
             </dependency>
 
 

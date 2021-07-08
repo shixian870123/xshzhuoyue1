@@ -1,0 +1,6 @@
+com\icis\user\controller\UserInfoController.class
+com\icis\user\UserServiceApplication.class
+com\icis\user\service\IUserInfoServiceImpl.class
+com\icis\user\mapper\UserInfoMapper.class
+com\icis\user\mapper\UserAddressMapper.class
+com\icis\user\service\IUserAddressServiceImpl.class
