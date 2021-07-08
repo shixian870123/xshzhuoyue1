@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d996c86a-1548-4b28-bad2-38d808a323b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-common-mapper/pom.xml" afterPath="$PROJECT_DIR$/zhuoyue-common-mapper/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/zhuoyue-common-mapper/src/main/java/com/icis/commonmapper/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/zhuoyue-common-mapper/src/main/java/com/icis/commonmapper/controller/UserInfoController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/zhuoyue-common-mapper/target/" />
@@ -369,7 +363,7 @@
       <workItem from="1625648136331" duration="1118000" />
       <workItem from="1625705213456" duration="4834000" />
       <workItem from="1625713831448" duration="640000" />
-      <workItem from="1625714497460" duration="628000" />
+      <workItem from="1625714497460" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="新建一个模块">
       <created>1625623916428</created>
@@ -413,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1625645617476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="构建模块">
+      <created>1625715157926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625715157926</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20612000" />
+    <option name="totallyTimeSpent" value="20649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -466,7 +467,8 @@
     <MESSAGE value="构建springboot工程" />
     <MESSAGE value="创建三层架构" />
     <MESSAGE value="查询数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="查询数据" />
+    <MESSAGE value="构建模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -509,6 +511,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1161">
           <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,6 +582,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -635,6 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,6 +759,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,6 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,6 +791,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
