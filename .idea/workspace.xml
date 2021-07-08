@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d996c86a-1548-4b28-bad2-38d808a323b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d996c86a-1548-4b28-bad2-38d808a323b9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/zhuoyue-common-mapper/target/" />
     <ignored path="$PROJECT_DIR$/zhuoyue-parent/target/" />
@@ -363,7 +361,7 @@
       <workItem from="1625648136331" duration="1118000" />
       <workItem from="1625705213456" duration="4834000" />
       <workItem from="1625713831448" duration="640000" />
-      <workItem from="1625714497460" duration="665000" />
+      <workItem from="1625714497460" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="新建一个模块">
       <created>1625623916428</created>
@@ -418,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20649000" />
+    <option name="totallyTimeSpent" value="20676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
