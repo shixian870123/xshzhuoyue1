@@ -16,6 +16,8 @@
         <module>../zhuoyue-web-util</module>
         <module>../zhuoyue-user-service</module>
         <module>../zhuoyue-order-web</module>
+        <module>../zhuoyue-manage-web</module>
+        <module>../zhuoyue-manage-service</module>
     </modules>
     <!--maven 中父工程 使用pom-->
     <packaging>pom</packaging>
@@ -164,5 +166,7 @@
 
         </dependencies>
     </dependencyManagement>
+
+
     
 </project>

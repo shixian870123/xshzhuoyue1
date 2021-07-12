@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/zhuoyue-common-mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhuoyue-common-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhuoyue-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhuoyue-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhuoyue-manage-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhuoyue-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhuoyue-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhuoyue-service-util" charset="UTF-8" />
