@@ -1,10 +1,14 @@
 package com.icis.manage.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.icis.manage.mapper.BaseAttrInfoMapper;
 import com.icis.manage.mapper.BaseCatalog1Mapper;
 import com.icis.manage.mapper.BaseCatalog2Mapper;
+import com.icis.manage.mapper.BaseCatalog3Mapper;
+import com.icis.pojo.BaseAttrInfo;
 import com.icis.pojo.BaseCatalog1;
 import com.icis.pojo.BaseCatalog2;
+import com.icis.pojo.BaseCatalog3;
 import com.icis.user.IManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.annotation.ApplicationScope;
@@ -21,6 +25,12 @@ public class IManageServiceImpl implements IManageService{
     @Autowired
     private BaseCatalog2Mapper baseCatalog2Mapper;
 
+    @Autowired
+    private BaseCatalog3Mapper baseCatalog3Mapper;
+
+    @Autowired
+    private BaseAttrInfoMapper baseAttrInfoMapper;
+
     @Override
     public List<BaseCatalog1> findAllBaseCatalog1() {
         return baseCatalog1Mapper.selectAll();
@@ -33,5 +43,20 @@ public class IManageServiceImpl implements IManageService{
         // 设置一级分类id
         baseCatalog2.setCatalog1Id(catalog1Id);
         return baseCatalog2Mapper.select(baseCatalog2);
+    }
+    // 实现查询三级分类
+    @Override
+    public List<BaseCatalog3> findBaseCatalog3Bycatalog2Id(String catalog2Id) {
+        BaseCatalog3 baseCatalog3=new BaseCatalog3();
+        // 设置二级分类id
+        baseCatalog3.setCatalog2Id(catalog2Id);
+        return baseCatalog3Mapper.select(baseCatalog3);
+    }
+    // 实现查询平台属性列表
+    @Override
+    public List<BaseAttrInfo> findBaseArrtiInfoBycatalog3Id(String catalog3Id) {
+        BaseAttrInfo baseAttrInfo=new BaseAttrInfo();
+        baseAttrInfo.setCatalog3Id(catalog3Id);
+        return baseAttrInfoMapper.select(baseAttrInfo);
     }
 }

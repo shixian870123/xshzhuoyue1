@@ -1,8 +1,10 @@
 package com.icis.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.icis.pojo.BaseAttrInfo;
 import com.icis.pojo.BaseCatalog1;
 import com.icis.pojo.BaseCatalog2;
+import com.icis.pojo.BaseCatalog3;
 import com.icis.user.IManageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -31,6 +33,20 @@ public class ManageController {
     public List<BaseCatalog2> getBaseCatalog1(String catalog1Id){
         return this.iManageService.findBaseCatalog2Bycatalog1Id(catalog1Id);
     }
+
+    @RequestMapping("/getCatalog3")
+    @ResponseBody
+    public List<BaseCatalog3> getBaseCatalog3(String catalog2Id) {
+        return this.iManageService.findBaseCatalog3Bycatalog2Id(catalog2Id);
+    }
+
+    // 根据三级分类 获得  平台属性列表  attrInfoList?catalog3Id=204
+    @RequestMapping("/attrInfoList")
+    @ResponseBody
+    public List<BaseAttrInfo> getAttrInfoListByCatalog3Id(String catalog3Id){
+        return this.iManageService.findBaseArrtiInfoBycatalog3Id(catalog3Id);
+    }
+
 
 
 }
