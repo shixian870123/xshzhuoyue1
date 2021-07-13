@@ -1,13 +1,11 @@
 package com.icis.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.icis.pojo.BaseAttrInfo;
-import com.icis.pojo.BaseCatalog1;
-import com.icis.pojo.BaseCatalog2;
-import com.icis.pojo.BaseCatalog3;
+import com.icis.pojo.*;
 import com.icis.user.IManageService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -45,6 +43,22 @@ public class ManageController {
     @ResponseBody
     public List<BaseAttrInfo> getAttrInfoListByCatalog3Id(String catalog3Id){
         return this.iManageService.findBaseArrtiInfoBycatalog3Id(catalog3Id);
+    }
+
+    // 添加平台属性和平台属性值  两个表的数据添加操作  事务的问题
+    // @RequestBody 把json对象转化为javabean
+    @RequestMapping("/saveAttrInfo")
+    @ResponseBody
+    public void saveAttriInfo(@RequestBody BaseAttrInfo baseAttrInfo){
+        // 调用接口 保存数据
+        this.iManageService.saveAttrInfo(baseAttrInfo);
+    }
+
+    // 根据平台属性 查询平台属性值  getAttrValueList?attrId=96
+    @RequestMapping("/getAttrValueList")
+    @ResponseBody
+    public List<BaseAttrValue> getAttrValueList(String attrId){
+        return this.iManageService.getAttrValueList(attrId);
     }
 
 

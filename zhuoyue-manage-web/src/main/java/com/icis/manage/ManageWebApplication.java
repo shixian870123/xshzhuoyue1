@@ -2,6 +2,7 @@ package com.icis.manage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 // 后台管理系统web 启动列
 @SpringBootApplication
